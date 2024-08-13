@@ -16,7 +16,12 @@ Key features of this library include:
 
 ## Installation
 
-To use this library, add the source file to your Nim project. No external dependencies are required.
+- To use this library, add the source file to your Nim project. No external dependencies are required.
+- You can install it with nimble. Use the command: 
+
+```cmd
+nimble install https://github.com/nappworks/nbit.git
+```
 
 ## Usage
 
