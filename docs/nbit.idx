@@ -1,0 +1,12 @@
+nimTitle	nbit	nbit.html	module src/nbit		0
+nim	BitIndexedTree	nbit.html#BitIndexedTree	type BitIndexedTree		6
+nim	len	nbit.html#len,BitIndexedTree[T: SomeNumber]	proc len[T: SomeNumber](bit: BitIndexedTree[T]): int		11
+nim	max	nbit.html#max,BitIndexedTree[T: SomeNumber]	proc max[T: SomeNumber](bit: BitIndexedTree[T]): int		16
+nim	genBitIndexedTree	nbit.html#genBitIndexedTree,int	proc genBitIndexedTree[T: SomeNumber](max: int): BitIndexedTree[T]		27
+nim	add	nbit.html#add,BitIndexedTree[T: SomeNumber],int,T	proc add[T: SomeNumber](bit: var BitIndexedTree[T]; pos: int; val: T)		48
+nim	sum	nbit.html#sum,BitIndexedTree[T: SomeNumber],int	proc sum[T: SomeNumber](bit: BitIndexedTree[T]; pos: int): T		56
+nim	toBitIndexedTree	nbit.html#toBitIndexedTree,openArray[T]	proc toBitIndexedTree[T: SomeNumber](vals: openArray[T]): BitIndexedTree[T]		64
+nim	`[]`	nbit.html#[],BitIndexedTree[T: SomeNumber],int	proc `[]`[T: SomeNumber](bit: BitIndexedTree[T]; pos: int): T		71
+nim	`[]=`	nbit.html#[]=,BitIndexedTree[T: SomeNumber],int,T	proc `[]=`[T: SomeNumber](bit: var BitIndexedTree[T]; pos: int; val: T)		81
+nim	`{}`	nbit.html#{},BitIndexedTree[T: SomeNumber],int	proc `{}`[T: SomeNumber](bit: BitIndexedTree[T]; pos: int): T		87
+nim	`{}=`	nbit.html#{}=,BitIndexedTree[T: SomeNumber],int,T	proc `{}=`[T: SomeNumber](bit: var BitIndexedTree[T]; pos: int; val: T)		92
