@@ -30,7 +30,7 @@ nimble install https://github.com/nappworks/nbit.git
 import nbit
 
 # 最大サイズ10の空のBit Indexed Treeを初期化
-var bit = genBitIndexedTree 
+var bit = genBitIndexedTree[int](10)
 
 # もしくは、数値のシーケンスから初期化
 let values = @[1, 2, 3, 4, 5]
