@@ -1,6 +1,3 @@
-<!-- # nbit
-Bit Indexed Tree (BIT) library written in Nim. -->
-
 # BitIndexedTree Library
 
 This Nim library provides a simple implementation of a **Bit Indexed Tree (Fenwick Tree)**, which is a data structure that efficiently supports prefix sum queries and point updates. The library is generic and works with any numeric type that conforms to `SomeNumber`.
