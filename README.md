@@ -64,26 +64,6 @@ let prefixSumAt3 = bit{3}
 echo prefixSumAt3  # Outputs the prefix sum up to index 3
 ```
 
-<!-- ### Iterators
-
-The library provides two iterators for traversing the tree:
-- `seekTopDown`: Traverses from a given position downwards.
-- `seekBottomUp`: Traverses from a given position upwards.
-
-```nim
-# Example usage of seekTopDown
-for pos in bit.seekTopDown(3):
-  echo pos
-
-# Example usage of seekBottomUp
-for pos in bit.seekBottomUp(1):
-  echo pos
-``` -->
-
-<!-- ## Testing
-
-Unit tests are provided to verify the correctness of the library's methods. These tests can be run using the `unittest` module in Nim. -->
-
 ## Contributing
 
 Feel free to open issues or submit pull requests if you find bugs or want to add features.
@@ -91,5 +71,3 @@ Feel free to open issues or submit pull requests if you find bugs or want to add
 ## License
 
 This project is licensed under the MIT License.
-
-
