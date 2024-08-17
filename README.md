@@ -61,10 +61,6 @@ let prefixSumAt3 = bit{3}
 echo prefixSumAt3  # Outputs the prefix sum up to index 3
 ```
 
-## Contributing
-
-Feel free to open issues or submit pull requests if you find bugs or want to add features.
-
 ## License
 
 This project is licensed under the MIT License.
